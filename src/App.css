@@ -82,7 +82,7 @@ nav {
   left: 0;
   width: 630px;
   height: 100%;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, aliceblue 100%);
   mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
   mask-repeat: no-repeat;
   mask-size: 100% 100%;
@@ -102,7 +102,7 @@ nav {
 
 
 .imggradient img{
-  width: 800px;
+  width: 630px;
 }
 
 .imggradient h1{
@@ -110,7 +110,7 @@ nav {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
   font-size: 60px;
-  margin-top: 50px;
+  margin-top: 20px;
   animation: colorChange 2s linear infinite alternate;
 }
 

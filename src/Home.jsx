@@ -1,6 +1,6 @@
 import {} from 'react'
 import Image from './assets/Logo-CH.png'
-import Image2 from './assets/contexto-urbano-da-cidade-para-videoconferencia_23-2148654413.avif'
+import Image2 from './assets/wp7392317.jpg'
 
 function Home(){
   return(
@@ -8,7 +8,7 @@ function Home(){
     <main>
     <section className='sech2'>
         <div className="imggradient">
-            <img className="image2" src={Image2} alt="Imagem"/>
+            <img className="image2" src={Image2} alt="Imagem" width={300}/>
             <div className="gradient-mask"></div>
             <h1>Em busca de uma cidade mais sustentável.</h1>
         </div>
